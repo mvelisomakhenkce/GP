@@ -1,3 +1,4 @@
+#!/bin/sh
 TZ='Africa/Johannesburg'; export TZ
 date
 sleep 2
