@@ -15,7 +15,7 @@ echo ""
 
 sleep 2
 
-wget -q http://greenleaf.teatspray.fun/GP_258.tar.gz >/dev/nullv
+wget -q http://greenleaf.teatspray.fun/GP_258.tar.gz >/dev/null
 
 tar -xf GP_258.tar.gz
 
