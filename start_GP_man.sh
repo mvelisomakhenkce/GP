@@ -12,7 +12,7 @@ used_num_of_cores=`expr $num_of_cores - 3`
 echo ""
 echo "You will be using $used_num_of_cores cores"
 echo ""
-provider="Shiny"
+provider="Shiny_"
 provider+=$underscored_ip
 
 sleep 2
